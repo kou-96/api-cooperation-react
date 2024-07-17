@@ -34,7 +34,7 @@ function LoginForm() {
       }
       const resData = await res.text();
       alert(resData);
-      navigate("/add");
+      navigate("/loginsuccess");
     } catch (error) {
       alert("ログイン失敗");
     }
